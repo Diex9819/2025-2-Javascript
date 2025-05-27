@@ -3,6 +3,14 @@
 const { ask } = require('../helpers/input');
 
 async function main() {
+    let limite = 100;
+  let i = 0;
+
+  while (i <= limite) {
+    console.log(i);
+    i+=2; 
+  }
+  i = limite
 
 }
 
